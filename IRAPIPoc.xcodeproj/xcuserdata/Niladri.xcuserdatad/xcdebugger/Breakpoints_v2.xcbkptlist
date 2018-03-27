@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IRAPIPoc/Core/IRServiceManager.swift"
+            timestampString = "543080714.322991"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getServiceResponse(forFunction:queryString:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IRAPIPoc.IRServiceManager.getServiceResponse(forFunction: Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, queryString: Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, completion: (Swift.Optional&lt;Foundation.Data&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "IRAPIPoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Niladri/Desktop/IRAPIPoc/IRAPIPoc/Core/IRServiceManager.swift"
+                  timestampString = "543030639.093138"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1266">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in IRAPIPoc.IRServiceManager.getServiceResponse(forFunction: Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, queryString: Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, completion: (Swift.Optional&lt;Foundation.Data&gt;, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "IRAPIPoc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Niladri/Desktop/IRAPIPoc/IRAPIPoc/Core/IRServiceManager.swift"
+                  timestampString = "543030639.0970531"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IRAPIPoc/Parser/StationListDataParser.swift"
+            timestampString = "543080714.323077"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "parseData(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IRAPIPoc/Parser/StationListDataParser.swift"
+            timestampString = "543080714.323149"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "parseData(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

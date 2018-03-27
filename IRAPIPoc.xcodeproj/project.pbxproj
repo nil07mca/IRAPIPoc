@@ -13,6 +13,24 @@
 		3025AEE8205DE90300B43EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3025AEE7205DE90300B43EF5 /* Assets.xcassets */; };
 		3025AEEB205DE90300B43EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3025AEE9205DE90300B43EF5 /* LaunchScreen.storyboard */; };
 		3025AEF6205DE90400B43EF5 /* IRAPIPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AEF5205DE90400B43EF5 /* IRAPIPocTests.swift */; };
+		3025AF02205DE93E00B43EF5 /* IRStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF01205DE93E00B43EF5 /* IRStation.swift */; };
+		3025AF04205DEA0100B43EF5 /* IRStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF03205DEA0100B43EF5 /* IRStops.swift */; };
+		3025AF06205DEAC800B43EF5 /* IRTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF05205DEAC800B43EF5 /* IRTrain.swift */; };
+		3025AF09205DEBF700B43EF5 /* StationListDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF08205DEBF700B43EF5 /* StationListDataParser.swift */; };
+		3025AF0C205DEC7B00B43EF5 /* IRConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF0B205DEC7B00B43EF5 /* IRConstants.swift */; };
+		3025AF0E205DED1000B43EF5 /* TrainListDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF0D205DED1000B43EF5 /* TrainListDataParser.swift */; };
+		3025AF10205DEDBC00B43EF5 /* StationStopsDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF0F205DEDBC00B43EF5 /* StationStopsDataParser.swift */; };
+		3025AF15205DEE2600B43EF5 /* getTrainMovementsXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3025AF12205DEE2500B43EF5 /* getTrainMovementsXML.xml */; };
+		3025AF16205DEE2600B43EF5 /* getAllStationsXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3025AF13205DEE2500B43EF5 /* getAllStationsXML.xml */; };
+		3025AF17205DEE2600B43EF5 /* getStationDataByNameXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3025AF14205DEE2500B43EF5 /* getStationDataByNameXML.xml */; };
+		3025AF1A205DEE5800B43EF5 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF19205DEE5800B43EF5 /* SwiftSpinner.swift */; };
+		3025AF1C205DEE8100B43EF5 /* IRServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF1B205DEE8100B43EF5 /* IRServiceManager.swift */; };
+		3025AF1E205DEF9900B43EF5 /* IRStubbedServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF1D205DEF9900B43EF5 /* IRStubbedServer.swift */; };
+		3025AF20205DF00000B43EF5 /* IRDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF1F205DF00000B43EF5 /* IRDataManager.swift */; };
+		3025AF25205DF1A200B43EF5 /* IRTrainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF24205DF1A200B43EF5 /* IRTrainsViewController.swift */; };
+		3025AF29205DF33600B43EF5 /* IRHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF28205DF33600B43EF5 /* IRHelper.swift */; };
+		3025AF2E205DF85100B43EF5 /* IRStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF2D205DF85100B43EF5 /* IRStationsViewController.swift */; };
+		3025AF30205DFF0400B43EF5 /* IRStopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025AF2F205DFF0300B43EF5 /* IRStopsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,24 @@
 		3025AEF1205DE90400B43EF5 /* IRAPIPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRAPIPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3025AEF5205DE90400B43EF5 /* IRAPIPocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRAPIPocTests.swift; sourceTree = "<group>"; };
 		3025AEF7205DE90400B43EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3025AF01205DE93E00B43EF5 /* IRStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRStation.swift; sourceTree = "<group>"; };
+		3025AF03205DEA0100B43EF5 /* IRStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRStops.swift; sourceTree = "<group>"; };
+		3025AF05205DEAC800B43EF5 /* IRTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRTrain.swift; sourceTree = "<group>"; };
+		3025AF08205DEBF700B43EF5 /* StationListDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListDataParser.swift; sourceTree = "<group>"; };
+		3025AF0B205DEC7B00B43EF5 /* IRConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRConstants.swift; sourceTree = "<group>"; };
+		3025AF0D205DED1000B43EF5 /* TrainListDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainListDataParser.swift; sourceTree = "<group>"; };
+		3025AF0F205DEDBC00B43EF5 /* StationStopsDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationStopsDataParser.swift; sourceTree = "<group>"; };
+		3025AF12205DEE2500B43EF5 /* getTrainMovementsXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = getTrainMovementsXML.xml; sourceTree = "<group>"; };
+		3025AF13205DEE2500B43EF5 /* getAllStationsXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = getAllStationsXML.xml; sourceTree = "<group>"; };
+		3025AF14205DEE2500B43EF5 /* getStationDataByNameXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = getStationDataByNameXML.xml; sourceTree = "<group>"; };
+		3025AF19205DEE5800B43EF5 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		3025AF1B205DEE8100B43EF5 /* IRServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRServiceManager.swift; sourceTree = "<group>"; };
+		3025AF1D205DEF9900B43EF5 /* IRStubbedServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRStubbedServer.swift; sourceTree = "<group>"; };
+		3025AF1F205DF00000B43EF5 /* IRDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDataManager.swift; sourceTree = "<group>"; };
+		3025AF24205DF1A200B43EF5 /* IRTrainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRTrainsViewController.swift; sourceTree = "<group>"; };
+		3025AF28205DF33600B43EF5 /* IRHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRHelper.swift; sourceTree = "<group>"; };
+		3025AF2D205DF85100B43EF5 /* IRStationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRStationsViewController.swift; sourceTree = "<group>"; };
+		3025AF2F205DFF0300B43EF5 /* IRStopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRStopsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +113,12 @@
 		3025AEDF205DE90300B43EF5 /* IRAPIPoc */ = {
 			isa = PBXGroup;
 			children = (
+				3025AF21205DF0D400B43EF5 /* ViewController */,
+				3025AF18205DEE3C00B43EF5 /* SwiftSpinner - Third Party */,
+				3025AF11205DEE1300B43EF5 /* StubbedData */,
+				3025AF0A205DEC6000B43EF5 /* Core */,
+				3025AF07205DEB6C00B43EF5 /* Parser */,
+				3025AF00205DE91500B43EF5 /* Data */,
 				3025AEE0205DE90300B43EF5 /* AppDelegate.swift */,
 				3025AEE2205DE90300B43EF5 /* ViewController.swift */,
 				3025AEE4205DE90300B43EF5 /* Main.storyboard */,
@@ -94,6 +136,66 @@
 				3025AEF7205DE90400B43EF5 /* Info.plist */,
 			);
 			path = IRAPIPocTests;
+			sourceTree = "<group>";
+		};
+		3025AF00205DE91500B43EF5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3025AF01205DE93E00B43EF5 /* IRStation.swift */,
+				3025AF03205DEA0100B43EF5 /* IRStops.swift */,
+				3025AF05205DEAC800B43EF5 /* IRTrain.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3025AF07205DEB6C00B43EF5 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				3025AF08205DEBF700B43EF5 /* StationListDataParser.swift */,
+				3025AF0D205DED1000B43EF5 /* TrainListDataParser.swift */,
+				3025AF0F205DEDBC00B43EF5 /* StationStopsDataParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		3025AF0A205DEC6000B43EF5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3025AF0B205DEC7B00B43EF5 /* IRConstants.swift */,
+				3025AF1B205DEE8100B43EF5 /* IRServiceManager.swift */,
+				3025AF1D205DEF9900B43EF5 /* IRStubbedServer.swift */,
+				3025AF1F205DF00000B43EF5 /* IRDataManager.swift */,
+				3025AF28205DF33600B43EF5 /* IRHelper.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3025AF11205DEE1300B43EF5 /* StubbedData */ = {
+			isa = PBXGroup;
+			children = (
+				3025AF13205DEE2500B43EF5 /* getAllStationsXML.xml */,
+				3025AF14205DEE2500B43EF5 /* getStationDataByNameXML.xml */,
+				3025AF12205DEE2500B43EF5 /* getTrainMovementsXML.xml */,
+			);
+			path = StubbedData;
+			sourceTree = "<group>";
+		};
+		3025AF18205DEE3C00B43EF5 /* SwiftSpinner - Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				3025AF19205DEE5800B43EF5 /* SwiftSpinner.swift */,
+			);
+			path = "SwiftSpinner - Third Party";
+			sourceTree = "<group>";
+		};
+		3025AF21205DF0D400B43EF5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3025AF24205DF1A200B43EF5 /* IRTrainsViewController.swift */,
+				3025AF2D205DF85100B43EF5 /* IRStationsViewController.swift */,
+				3025AF2F205DFF0300B43EF5 /* IRStopsViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +281,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3025AF15205DEE2600B43EF5 /* getTrainMovementsXML.xml in Resources */,
+				3025AF16205DEE2600B43EF5 /* getAllStationsXML.xml in Resources */,
 				3025AEEB205DE90300B43EF5 /* LaunchScreen.storyboard in Resources */,
 				3025AEE8205DE90300B43EF5 /* Assets.xcassets in Resources */,
 				3025AEE6205DE90300B43EF5 /* Main.storyboard in Resources */,
+				3025AF17205DEE2600B43EF5 /* getStationDataByNameXML.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +304,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3025AF20205DF00000B43EF5 /* IRDataManager.swift in Sources */,
+				3025AF04205DEA0100B43EF5 /* IRStops.swift in Sources */,
 				3025AEE3205DE90300B43EF5 /* ViewController.swift in Sources */,
+				3025AF02205DE93E00B43EF5 /* IRStation.swift in Sources */,
+				3025AF25205DF1A200B43EF5 /* IRTrainsViewController.swift in Sources */,
+				3025AF1C205DEE8100B43EF5 /* IRServiceManager.swift in Sources */,
+				3025AF09205DEBF700B43EF5 /* StationListDataParser.swift in Sources */,
 				3025AEE1205DE90300B43EF5 /* AppDelegate.swift in Sources */,
+				3025AF2E205DF85100B43EF5 /* IRStationsViewController.swift in Sources */,
+				3025AF29205DF33600B43EF5 /* IRHelper.swift in Sources */,
+				3025AF1A205DEE5800B43EF5 /* SwiftSpinner.swift in Sources */,
+				3025AF0E205DED1000B43EF5 /* TrainListDataParser.swift in Sources */,
+				3025AF06205DEAC800B43EF5 /* IRTrain.swift in Sources */,
+				3025AF0C205DEC7B00B43EF5 /* IRConstants.swift in Sources */,
+				3025AF10205DEDBC00B43EF5 /* StationStopsDataParser.swift in Sources */,
+				3025AF30205DFF0400B43EF5 /* IRStopsViewController.swift in Sources */,
+				3025AF1E205DEF9900B43EF5 /* IRStubbedServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +362,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3025AEF8205DE90400B43EF5 /* Debug */ = {
+		3025AEF8205DE90400B43EF5 /* DebugLive */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +417,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = DebugLive;
 		};
 		3025AEF9205DE90400B43EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -349,7 +469,7 @@
 			};
 			name = Release;
 		};
-		3025AEFB205DE90400B43EF5 /* Debug */ = {
+		3025AEFB205DE90400B43EF5 /* DebugLive */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -362,7 +482,7 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = DebugLive;
 		};
 		3025AEFC205DE90400B43EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -379,7 +499,7 @@
 			};
 			name = Release;
 		};
-		3025AEFE205DE90400B43EF5 /* Debug */ = {
+		3025AEFE205DE90400B43EF5 /* DebugLive */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -394,7 +514,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRAPIPoc.app/IRAPIPoc";
 			};
-			name = Debug;
+			name = DebugLive;
 		};
 		3025AEFF205DE90400B43EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -413,13 +533,104 @@
 			};
 			name = Release;
 		};
+		3025AF2A205DF5BB00B43EF5 /* DebugStubbed */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugStubbed;
+		};
+		3025AF2B205DF5BB00B43EF5 /* DebugStubbed */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AJ44N5SBM;
+				INFOPLIST_FILE = IRAPIPoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DSTUBBED";
+				PRODUCT_BUNDLE_IDENTIFIER = NIladri.IRAPIPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugStubbed;
+		};
+		3025AF2C205DF5BB00B43EF5 /* DebugStubbed */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AJ44N5SBM;
+				INFOPLIST_FILE = IRAPIPocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NIladri.IRAPIPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IRAPIPoc.app/IRAPIPoc";
+			};
+			name = DebugStubbed;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		3025AED8205DE90300B43EF5 /* Build configuration list for PBXProject "IRAPIPoc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3025AEF8205DE90400B43EF5 /* Debug */,
+				3025AEF8205DE90400B43EF5 /* DebugLive */,
+				3025AF2A205DF5BB00B43EF5 /* DebugStubbed */,
 				3025AEF9205DE90400B43EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -428,7 +639,8 @@
 		3025AEFA205DE90400B43EF5 /* Build configuration list for PBXNativeTarget "IRAPIPoc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3025AEFB205DE90400B43EF5 /* Debug */,
+				3025AEFB205DE90400B43EF5 /* DebugLive */,
+				3025AF2B205DF5BB00B43EF5 /* DebugStubbed */,
 				3025AEFC205DE90400B43EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -437,7 +649,8 @@
 		3025AEFD205DE90400B43EF5 /* Build configuration list for PBXNativeTarget "IRAPIPocTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3025AEFE205DE90400B43EF5 /* Debug */,
+				3025AEFE205DE90400B43EF5 /* DebugLive */,
+				3025AF2C205DF5BB00B43EF5 /* DebugStubbed */,
 				3025AEFF205DE90400B43EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

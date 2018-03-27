@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfObjStationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://api.irishrail.ie/realtime/">
+  <objStationData>
+    <Servertime>2018-03-17T13:09:41.027</Servertime>
+    <Traincode>D802 </Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>13:09:41</Querytime>
+    <Traindate>17 Mar 2018</Traindate>
+    <Origin>Dublin Pearse</Origin>
+    <Destination>Drogheda</Destination>
+    <Origintime>13:15</Origintime>
+    <Destinationtime>14:22</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>33</Duein>
+    <Late>0</Late>
+    <Exparrival>13:42</Exparrival>
+    <Expdepart>13:42</Expdepart>
+    <Scharrival>13:42</Scharrival>
+    <Schdepart>13:42</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>Train</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-17T13:09:41.027</Servertime>
+    <Traincode>E802B</Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>13:09:41</Querytime>
+    <Traindate>17 Mar 2018</Traindate>
+    <Origin>Bray</Origin>
+    <Destination>Malahide</Destination>
+    <Origintime>12:42</Origintime>
+    <Destinationtime>13:52</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>43</Duein>
+    <Late>0</Late>
+    <Exparrival>13:52</Exparrival>
+    <Expdepart>00:00</Expdepart>
+    <Scharrival>13:52</Scharrival>
+    <Schdepart>00:00</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>D</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-17T13:09:41.027</Servertime>
+    <Traincode>E815B</Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>13:09:41</Querytime>
+    <Traindate>17 Mar 2018</Traindate>
+    <Origin>Greystones</Origin>
+    <Destination>Malahide</Destination>
+    <Origintime>13:10</Origintime>
+    <Destinationtime>14:29</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>80</Duein>
+    <Late>0</Late>
+    <Exparrival>14:29</Exparrival>
+    <Expdepart>00:00</Expdepart>
+    <Scharrival>14:29</Scharrival>
+    <Schdepart>00:00</Schdepart>
+    <Direction>Northbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>D</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-17T13:09:41.027</Servertime>
+    <Traincode>E208B</Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>13:09:41</Querytime>
+    <Traindate>17 Mar 2018</Traindate>
+    <Origin>Malahide</Origin>
+    <Destination>Bray</Destination>
+    <Origintime>13:25</Origintime>
+    <Destinationtime>14:33</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>16</Duein>
+    <Late>0</Late>
+    <Exparrival>00:00</Exparrival>
+    <Expdepart>13:25</Expdepart>
+    <Scharrival>00:00</Scharrival>
+    <Schdepart>13:25</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>O</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-17T13:09:41.027</Servertime>
+    <Traincode>E104B</Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>13:09:41</Querytime>
+    <Traindate>17 Mar 2018</Traindate>
+    <Origin>Malahide</Origin>
+    <Destination>Greystones</Destination>
+    <Origintime>14:05</Origintime>
+    <Destinationtime>15:23</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>56</Duein>
+    <Late>0</Late>
+    <Exparrival>00:00</Exparrival>
+    <Expdepart>14:05</Expdepart>
+    <Scharrival>00:00</Scharrival>
+    <Schdepart>14:05</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>DART</Traintype>
+    <Locationtype>O</Locationtype>
+  </objStationData>
+  <objStationData>
+    <Servertime>2018-03-17T13:09:41.027</Servertime>
+    <Traincode>P605 </Traincode>
+    <Stationfullname>Malahide</Stationfullname>
+    <Stationcode>MHIDE</Stationcode>
+    <Querytime>13:09:41</Querytime>
+    <Traindate>17 Mar 2018</Traindate>
+    <Origin>Drogheda</Origin>
+    <Destination>Dublin Pearse</Destination>
+    <Origintime>13:45</Origintime>
+    <Destinationtime>14:47</Destinationtime>
+    <Status>No Information</Status>
+    <Lastlocation />
+    <Duein>72</Duein>
+    <Late>0</Late>
+    <Exparrival>14:21</Exparrival>
+    <Expdepart>14:21</Expdepart>
+    <Scharrival>14:21</Scharrival>
+    <Schdepart>14:21</Schdepart>
+    <Direction>Southbound</Direction>
+    <Traintype>Train</Traintype>
+    <Locationtype>S</Locationtype>
+  </objStationData>
+</ArrayOfObjStationData>
